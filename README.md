@@ -73,5 +73,18 @@ https://hub.docker.com/repository/docker/enpozdnikin/custom-nginx/general
 ---
 
 ### Задание 5
+![5-1](img/5-1.png)
+
+Вношу изменения в файл compose.yaml
+[!compose.yaml] (compose.yaml)
+
+добавляю секцию 
+```
+include:
+  - docker-compose.yaml
+```
+
+![5-2](img/5-2.png)
+
 
 
