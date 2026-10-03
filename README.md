@@ -42,7 +42,9 @@ https://hub.docker.com/repository/docker/enpozdnikin/custom-nginx/general
 ![3-1](img/3-1.png)
 
 После подключения к стандартному потоку ввода/вывода/ошибок контейнера "custom-nginx-t2" нажав комбинацию Ctrl-C был послан сигнал SIGINT — сигнал прерывания, который сообщает процессу, что мы хотим его прервать.
+
 Устанявливаю nano
+
 ![nano](img/nano.png)
 
 Меняю порт Nginx
