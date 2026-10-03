@@ -81,6 +81,8 @@ https://hub.docker.com/repository/docker/enpozdnikin/custom-nginx/general
 
 ### Задание 4
 
+Работа c volume
+
 ![4-1](img/4-1.png)
 
 ---
