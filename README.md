@@ -30,7 +30,7 @@ https://hub.docker.com/repository/docker/enpozdnikin/custom-nginx/general
 ---
 
 ### Задание 2
-![2-1](img/2-1/png)
+![2-1](img/2-1.png)
 
 ---
 
