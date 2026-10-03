@@ -30,6 +30,8 @@ https://hub.docker.com/repository/docker/enpozdnikin/custom-nginx/general
 ---
 
 ### Задание 2
+Запускаю контейнер, переименовываю его и запускаю команды демонстрации 
+
 ![2-1](img/2-1.png)
 
 ---
