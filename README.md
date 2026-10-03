@@ -92,8 +92,7 @@ https://hub.docker.com/repository/docker/enpozdnikin/custom-nginx/general
 ![5-1](img/5-1.png)
 
 Запустился compose.yaml потому как в новых версиях docker compose этот файл главный, второй файл (старая версия) будет использоваться в случае отсутствия первого 
-Вношу изменения в файл compose.yaml
-[compose.yaml](compose.yaml)
+Вношу изменения в файл [compose.yaml](compose.yaml)
 
 добавляю секцию чтобы были запущенны оба файла
 ```
