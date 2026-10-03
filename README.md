@@ -39,6 +39,7 @@ https://hub.docker.com/repository/docker/enpozdnikin/custom-nginx/general
 ![3-1](img/3-1.png)
 
 После подключения к стандартному потоку ввода/вывода/ошибок контейнера "custom-nginx-t2" нажав комбинацию Ctrl-C был послан сигнал SIGINT — сигнал прерывания, который сообщает процессу, что мы хотим его прервать.
+![nano](nano.png) 
 ![3-2](img/3-2.png)
 
 Суть проблемы состоит в том что мы поменяли конфигурацию nginx на другой порт, и старый порт он больше не слушает, в то время как докер сконфигурирован таким образом, что проброс локального порта ссылается на тот что мы задали изначально.
@@ -76,7 +77,7 @@ https://hub.docker.com/repository/docker/enpozdnikin/custom-nginx/general
 ![5-1](img/5-1.png)
 
 Вношу изменения в файл compose.yaml
-[!compose.yaml] (compose.yaml)
+![compose.yaml](compose.yaml)
 
 добавляю секцию 
 ```
